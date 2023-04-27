@@ -1,0 +1,1675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="input.css">
+    <title>Row2 - Dashboard 2</title>
+</head>
+<!-- fill-[#c3cad9] -->
+<!-- text-[#7d8fb3] -->
+<body class="bg-[#f7f8fa]" style="font-family: 'Poppins', sans-serif;">
+
+<!-- main container -->
+    <div class="">
+        <!-- upper navigation -->
+        <div class="h-[70px] border-b border-gray-300 flex justify-between px-4 items-center">
+            <div class="min-w-[170px] flex items-center justify-between">
+                <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full hover:shadow-md hover:scale-125 hover:transition-all">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9]" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </div>
+                <div class="font-semibold text-[#4d5e80]">
+                   Constructor
+                </div>
+            </div>
+            <ul class="flex">
+                <li class="text-[13px] mx-2 text-[#7d8fb3] font-medium hover:text-[#3361ff]">
+                    <a href="">Dashboard</a>
+                </li>
+                <li class="text-[13px] mx-2 text-[#7d8fb3] font-medium hover:text-[#3361ff]">
+                    <a href="">About Us</a>
+                </li>
+                <li class="text-[13px] mx-2 text-[#7d8fb3] font-medium hover:text-[#3361ff]">
+                    <a href="">News</a>
+                </li>
+                <li class="text-[13px] mx-2 text-[#7d8fb3] font-medium hover:text-[#3361ff]">
+                    <a href="">User Policy</a>
+                </li>
+                <li class="text-[13px] mx-2 text-[#7d8fb3] font-medium hover:text-[#3361ff]">
+                    <a href="">Contacts</a>
+                </li>
+                <li class="text-[20px] mx-2 leading-[9px] text-[#7d8fb3] font-medium hover:text-[#3361ff]">
+                    <a href="">...</a>
+                </li>
+            </ul>
+            <div class="w-[300px] bg-white h-[40px] rounded-full shadow-sm flex items-center justify-between hover:shadow-md hover:scale-110 hover:transition-all">
+                <div class="w-[20px] h-[20px] ml-4 mt-[6px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search fill-[#c3cad9]" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+                </div>
+                <input type="text" class="outline-none placeholder:text-[11px] placeholder:font-medium px-2 placeholder:text-[#d1d7e3]" placeholder="Search Products, Orders and Clients">
+                <div class="w-[20px] h-[20px] mr-1 mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-chevron-right fill-[#c3cad9]" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="w-[250px] flex items-center">
+                <div class="w-[20px] h-[20px] bg-[#c3cad9] rounded-full flex items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill fill-white" viewBox="0 0 16 16"><path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg>
+                </div>
+                <p class="text-[12px] font-semibold px-4 text-[#7d8fb3]">Clayton Santos</p>
+                <div class="flex items-center">
+                    <div class="bg-white rounded-full h-[40px] w-[40px] flex items-center justify-center shadow-sm hover:shadow-md hover:scale-125 hover:transition-all">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell-fill fill-[#c3cad9]" viewBox="0 0 16 16"><path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                        </svg>
+                    </div>
+                    <div class="h-[8px] w-[8px] bg-[#e62e7b] rounded-full relative top-[-16px] left-[-9px]">
+
+                    </div>
+                </div>
+                
+                <div class="bg-white rounded-full h-[40px] w-[40px] flex items-center justify-center shadow-sm ml-3 hover:shadow-md hover:scale-125 hover:transition-all">
+                    <div class="w-[20px] h-[20px] bg-[#c3cad9] rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill fill-white" viewBox="0 0 16 16"><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- lower container -->
+        <div class="flex">
+            <!-- sidebar -->
+            <div class="min-w-[70px] max-w-[70px] border-r border-gray-300 flex  flex-col">
+                <div class="w-[40px] m-auto cursor-pointer">
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 sidebar_icon hover:scale-125 hover:transition-all cursor-pointer hover:shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list  fill-[#c3cad9] sidebar_svg" viewBox="0 0 16 16"><path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 sidebar_icon cursor-pointer hover:scale-125 hover:transition-all hover:shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9] sidebar_svg" viewBox="0 0 16 16"><path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 sidebar_icon cursor-pointer hover:scale-125 hover:transition-all hover:shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9] sidebar_svg" viewBox="0 0 16 16"><path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 sidebar_icon cursor-pointer hover:scale-125 hover:transition-all hover:shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9] sidebar_svg" viewBox="0 0 16 16"><path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 sidebar_icon cursor-pointer hover:scale-125 hover:transition-all hover:shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9] sidebar_svg" viewBox="0 0 16 16"><path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-2 11.5v-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-2.5.5a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1zm-3 0a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1z"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 sidebar_icon cursor-pointer hover:scale-125 hover:transition-all hover:shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9] sidebar_svg" viewBox="0 0 16 16"><path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 5.146a.5.5 0 0 1-.708.708L8.5 6.707V10.5a.5.5 0 0 1-1 0V6.707L6.354 7.854a.5.5 0 1 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2z"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 sidebar_icon cursor-pointer hover:scale-125 hover:transition-all hover:shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9] sidebar_svg" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                        </svg>
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 sidebar_icon cursor-pointer hover:scale-125 hover:transition-all hover:shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9] sidebar_svg" viewBox="0 0 16 16"><path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="h-full flex items-center w-[40px] m-auto">
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 sidebar_icon hover:scale-125 hover:transition-all cursor-pointer hover:shadow-md">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list  fill-[#c3cad9] sidebar_svg" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="w-[40px] m-auto cursor-pointer">
+                    <div class="">
+                        <div class="w-[8px] h-[8px] rounded-full bg-[#3361ff] relative top-[16px] left-[30px]"></div>
+                        <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 hover:scale-110 hover:transition-all">
+                        <img src="images/p4.png" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 cursor-pointer hover:scale-110 hover:transition-all">
+                        <img src="images/p3.png" alt="">
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 cursor-pointer hover:scale-110 hover:transition-all">
+                        <img src="images/p2.png" alt="">
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 cursor-pointer hover:scale-110 hover:transition-all">
+                        <img src="images/p1.png" alt="">
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 cursor-pointer hover:scale-110 hover:transition-all">
+                        <img src="images/p3.png" alt="">
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 cursor-pointer hover:scale-110 hover:transition-all">
+                        <img src="images/p2.png" alt="">
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 cursor-pointer hover:scale-110 hover:transition-all">
+                        <img src="images/p1.png" alt="">
+                    </div>
+                    <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full my-2 cursor-pointer hover:scale-110 hover:transition-all">
+                        <div class="w-[20px] h-[20px] bg-[#c3cad9] rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-white" viewBox="0 0 16 16"><path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- container  -->
+            <div class="w-full  flex">
+                <!-- inner sidebar  -->
+                <div class="min-w-[280px] max-w-[280px] p-[20px] border-r">
+                    <div class="min-w-[240px] max-w-[240px] h-full">
+                        <div class="h-[40px] flex items-center justify-between w-full pr-4">
+                            <div class="flex items-center">
+                                <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                <p class="text-[#8833ff] text-[13px] font-semibold">Getting started</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9]" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </div>
+                        <div class="h-[40px] flex items-center justify-between w-full pr-4">
+                            <div class="flex items-center">
+                                <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                <p class="text-[#6b7a99] text-[13px] font-semibold">Layout</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9]" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </div>
+                        <div class="h-[40px] flex items-center justify-between w-full">
+                            <div class="flex items-center">
+                                <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                <p class="text-[#6b7a99] text-[13px] font-semibold">Content</p>
+                            </div>
+                            <div class="flex items-center"> 
+                                <div class="text-white text-[11px] font-medium py-[6px] px-[10px] rounded-full bg-[#ff6633] shadow-lg">
+                                    New
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="h-[40px] overflow-hidden components_li">
+                            <div class="h-[40px] flex items-center justify-between w-full pr-4">
+                                <div class="flex items-center">
+                                    <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                    <p class="text-[#6b7a99] text-[13px] font-semibold">Components</p>
+                                </div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9]" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </div>
+                            <div class="p-4 bg-white rounded-lg shadow-md components_div">
+                                <div class="p-4 bg-[#f4f6fa] rounded-md shadow-sm">
+                                    <div class="h-[40px] flex items-center justify-between w-full border-b">
+                                        <div class="flex items-center">
+                                            <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                            <p class="text-[#6b7a99] text-[13px] font-semibold">Alerts</p>
+                                        </div>
+                                        <div class="flex items-center"> 
+                                            <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                                12
+                                            </div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] ml-4" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="h-[40px] flex items-center justify-between w-full">
+                                        <div class="flex items-center">
+                                            <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                            <p class="text-[#6b7a99] text-[13px] font-semibold">Link Color</p>
+                                        </div>
+                                        <div class="flex items-center"> 
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] ml-4" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="h-[40px] flex items-center justify-between w-full">
+                                        <div class="flex items-center">
+                                            <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                            <p class="text-[#6b7a99] text-[13px] font-semibold">Additional Content</p>
+                                        </div>
+                                        <div class="flex items-center"> 
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] ml-4" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="h-[40px] flex items-center justify-between w-full">
+                                        <div class="flex items-center">
+                                            <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                            <p class="text-[#6b7a99] text-[13px] font-semibold">Dismissing</p>
+                                        </div>
+                                        <div class="flex items-center"> 
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] ml-4" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="h-[40px] flex items-center justify-between w-full">
+                                        <div class="flex items-center">
+                                            <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                            <p class="text-[#6b7a99] text-[13px] font-semibold">Javascript Behaviour</p>
+                                        </div>
+                                        <div class="flex items-center"> 
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] ml-4" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Badge</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            12
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Breadcrumbs</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            4
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Buttons</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            12
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Button Group</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            14
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Card</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                           6
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Carousel</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            4
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Collapse</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            5
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Dropdowns</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            6
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Forms</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            13
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Input Group</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            12
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Jumbotron</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            4
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">List Group</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            4
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Media Object</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            7
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Modal</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            3
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Navbar</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            6
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Pagination</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                           4
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="h-[40px] flex items-center justify-between w-full">
+                                    <div class="flex items-center">
+                                        <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                        <p class="text-[#6b7a99] text-[13px] font-semibold">Popovers</p>
+                                    </div>
+                                    <div class="flex items-center"> 
+                                        <div class="text-[#6b7a99] text-[11px] font-medium py-[5px] px-[12px] rounded-full bg-[#f7f8fa] shadow-md">
+                                            9
+                                        </div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9] mx-4" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="h-[40px] flex items-center justify-between w-full pr-4">
+                            <div class="flex items-center">
+                                <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                <p class="text-[#6b7a99] text-[13px] font-semibold">Utilities</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9]" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </div>
+                        <div class="h-[40px] flex items-center justify-between w-full pr-4">
+                            <div class="flex items-center">
+                                <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                <p class="text-[#6b7a99] text-[13px] font-semibold">Extend</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9]" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </div>
+                        <div class="h-[40px] flex items-center justify-between w-full pr-4">
+                            <div class="flex items-center">
+                                <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                <p class="text-[#6b7a99] text-[13px] font-semibold">Migration</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9]" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </div>
+                        <div class="h-[40px] flex items-center justify-between w-full pr-4">
+                            <div class="flex items-center">
+                                <div class="h-[6px] w-[6px] rounded-full bg-[#c3cad9] mr-4"></div>
+                                <p class="text-[#6b7a99] text-[13px] font-semibold">About</p>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down fill-[#c3cad9]" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <!-- inner container -->
+                <div class="rounded-lg w-full grow shrink pt-6 px-6">
+                    <div class="h-[300px] w-full bg-[url('images/bg.jpg')] bg-cover rounded-lg mb-6">
+                        <div class="h-[300px] w-full bg-black/30 backdrop-blur-sm flex justify-center items-center rounded-lg">
+                            <div class="rounded-lg">
+                                <p class="text-white text-[20px] text-center"><b>Welcome!</b> How Can we Help?</p>
+                                <div class="w-[400px] bg-white/20 h-[50px] rounded-full shadow-sm flex items-center justify-between hover:shadow-md hover:scale-110 hover:transition-all my-5">
+                                    <div class="flex items-center">
+                                        <div class="w-[20px] h-[20px] ml-4 mt-[6px]">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search fill-white" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                                            </svg>
+                                        </div>
+                                        <input type="text" class="outline-none placeholder:text-[11px] placeholder:font-medium px-2 bg-white/0 placeholder:text-white" placeholder="How can we help you?">
+                                    </div>
+                                    <div class="w-[20px] h-[20px] mr-5">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-right fill-white" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="flex items-center justify-between w-[400px] m-auto">
+                                    <p class="text-white text-[13px] text-center mx-2">Popular Searches:</p>
+                                    <p class="text-white text-[13px] text-center mx-2">Print</p>
+                                    <p class="text-white text-[13px] text-center mx-2">Resize</p>
+                                    <p class="text-white text-[13px] text-center mx-2">Billing</p>
+                                    <p class="text-white text-[13px] text-center mx-2">Search</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full flex justify-between mb-6">
+                        <div class="w-[31.5%] ">
+                            <div class="p-5 mb-6 bg-white shadow-md rounded-md wrapping_div">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                            <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        </svg>
+                                        <p class="text-[11px] text-[#adb8cc] ml-3">28 ARTICLES</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                                    </svg>
+                                </div>
+                                <div class="wrapping_image h-0 overflow-hidden">
+                                    <img src="images/clipart.png" alt="">
+                                </div>
+                                <div class="flex items-center justify-between mt-2">
+                                    <div class="flex items-center"> 
+                                        <p class="text-[11px] text-[#6b7a99] ml-3">Account Management</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-5 mb-6 bg-[#ff6633] shadow-md rounded-md wrapping_div">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-fill fill-[#ffc2ae]" viewBox="0 0 16 16">
+                                            <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        </svg>
+                                        <p class="text-[11px] text-white ml-3">28 ARTICLES</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-white" viewBox="0 0 16 16">
+                                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                                    </svg>
+                                </div>
+                                <div class="wrapping_image h-0 overflow-hidden">
+                                    <img src="images/clipart.png" alt="">
+                                </div>
+                                <div class="flex items-center justify-between mt-2">
+                                    <div class="flex items-center"> 
+                                        <p class="text-[11px] text-white ml-3">Automated Emails</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-white" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-5 mb-6 bg-white shadow-md rounded-md wrapping_div">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                            <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        </svg>
+                                        <p class="text-[11px] text-[#adb8cc] ml-3">28 ARTICLES</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                                    </svg>
+                                </div>
+                                <div class="wrapping_image h-0 overflow-hidden">
+                                    <img src="images/clipart.png" alt="">
+                                </div>
+                                <div class="flex items-center justify-between mt-2">
+                                    <div class="flex items-center"> 
+                                        <p class="text-[11px] text-[#6b7a99] ml-3">Account Management</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[31.5%] ">
+                            <div class="p-5 mb-6 bg-[#3361ff] shadow-md rounded-md wrapping_div">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-fill fill-white" viewBox="0 0 16 16">
+                                            <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        </svg>
+                                        <p class="text-[11px] text-white ml-3">28 ARTICLES</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-white" viewBox="0 0 16 16">
+                                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                                    </svg>
+                                </div>
+                                <div class="wrapping_image h-0 overflow-hidden">
+                                    <img src="images/clipart.png" alt="">
+                                </div>
+                                <div class="flex items-center justify-between mt-2">
+                                    <div class="flex items-center"> 
+                                        <p class="text-[11px] text-white ml-3">Create and Send</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-white" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-5 mb-6 bg-white shadow-md rounded-md wrapping_div">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                            <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        </svg>
+                                        <p class="text-[11px] text-[#adb8cc] ml-3">28 ARTICLES</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                                    </svg>
+                                </div>
+                                <div class="wrapping_image h-0 overflow-hidden">
+                                    <img src="images/clipart.png" alt="">
+                                </div>
+                                <div class="flex items-center justify-between mt-2">
+                                    <div class="flex items-center"> 
+                                        <p class="text-[11px] text-[#6b7a99] ml-3">Help With Setup and Installation</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-5 mb-6 bg-[#2d6589] shadow-md rounded-md wrapping_div">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-fill fill-white" viewBox="0 0 16 16">
+                                            <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        </svg>
+                                        <p class="text-[11px] text-white ml-3">28 ARTICLES</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-white" viewBox="0 0 16 16">
+                                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                                    </svg>
+                                </div>
+                                <div class="wrapping_image h-0 overflow-hidden">
+                                    <img src="images/clipart.png" alt="">
+                                </div>
+                                <div class="flex items-center justify-between mt-2">
+                                    <div class="flex items-center"> 
+                                        <p class="text-[11px] text-white ml-3">Deliverability and Bounces</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-white" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-[31.5%] ">
+                            <div class="p-5 mb-6 bg-white shadow-md rounded-md wrapping_div">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                            <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        </svg>
+                                        <p class="text-[11px] text-[#adb8cc] ml-3">28 ARTICLES</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                                    </svg>
+                                </div>
+                                <div class="wrapping_image h-0 overflow-hidden">
+                                    <img src="images/clipart.png" alt="">
+                                </div>
+                                <div class="flex items-center justify-between mt-2">
+                                    <div class="flex items-center"> 
+                                        <p class="text-[11px] text-[#6b7a99] ml-3">Billing and Payment</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-5 mb-6 bg-[#909290] shadow-md rounded-md wrapping_div">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-fill fill-white" viewBox="0 0 16 16">
+                                            <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        </svg>
+                                        <p class="text-[11px] text-white ml-3">28 ARTICLES</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-white" viewBox="0 0 16 16">
+                                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                                    </svg>
+                                </div>
+                                <div class="wrapping_image h-0 overflow-hidden">
+                                    <img src="images/clipart.png" alt="">
+                                </div>
+                                <div class="flex items-center justify-between mt-2">
+                                    <div class="flex items-center"> 
+                                        <p class="text-[11px] text-white ml-3">Account Management</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-white" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="p-5 mb-6 bg-white shadow-md rounded-md wrapping_div">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                            <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                        </svg>
+                                        <p class="text-[11px] text-[#adb8cc] ml-3">28 ARTICLES</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                        <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                                    </svg>
+                                </div>
+                                <div class="wrapping_image h-0 overflow-hidden">
+                                    <img src="images/clipart.png" alt="">
+                                </div>
+                                <div class="flex items-center justify-between mt-2">
+                                    <div class="flex items-center"> 
+                                        <p class="text-[11px] text-[#6b7a99] ml-3">Billing and Payment</p>
+                                    </div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chat-left-fill fill-[#dadee6]" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white shadow-sm p-10 rounded-lg mb-6">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-star-fill fill-[#ffcb33] mr-4" viewBox="0 0 16 16">
+                                <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <p class="text-[#4d5e80] text-[14px] font-semibold">Featured Articles</p>
+                        </div>
+                        <div class="flex mt-6">
+                            <div class="w-1/4 p-2">
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Share Designs With Your Team</p>
+                                </div>
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Purchase Premium Elements</p>
+                                </div>
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Advanced Search</p>
+                                </div>
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Publish Team Templates</p>
+                                </div>
+                            </div>
+                            <div class="w-1/4 p-2">
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Accessing your invoice</p>
+                                </div>
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Use Photos In Grids</p>
+                                </div>
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Obatin Print Quality Files</p>
+                                </div>
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Upgrade to Pro Version</p>
+                                </div>
+                            </div>
+                            <div class="w-1/4 p-2">
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Introduction to Projects</p>
+                                </div>
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Account Setup</p>
+                                </div>
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Design With Service</p>
+                                </div>
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Working As A Team</p>
+                                </div>
+                            </div>
+                            <div class="w-1/4 p-2">
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Signup to Service</p>
+                                </div>
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Security</p>
+                                </div>
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Change your account</p>
+                                </div>
+                                <div class="flex items-center my-3">
+                                    <div class="w-[6px] h-[6px] rounded-full bg-[#ffcb33] mr-4"></div>
+                                    <p class="text-[#7d8fb3] text-[12px] font-semibold">Non-profit Programs</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="h-[70px] flex items-center justify-between px-4">
+                        <p class="text-[12px] text-[#7d8fb3] font-semibold">copyright 2019 Home Box Office, Inc. All Rights Reserved.</p>
+                        <div class="flex">
+                            <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full hover:shadow-md hover:scale-125 hover:transition-all mx-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9]" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full hover:shadow-md hover:scale-125 hover:transition-all mx-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9]" viewBox="0 0 16 16"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full hover:shadow-md hover:scale-125 hover:transition-all mx-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9]" viewBox="0 0 16 16">  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+
+                                </svg>
+                            </div>
+                            <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full hover:shadow-md hover:scale-125 hover:transition-all mx-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9]" viewBox="0 0 16 16">  <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="flex w-[200px] h-[36px] rounded-full border items-center justify-between px-4">
+                            <p class="text-[11px] text-[#7d8fb3] font-semibold">English Language</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list fill-[#c3cad9]" viewBox="0 0 16 16">   <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                            </svg>
+                        </div>
+                        <div class="flex">
+                            <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full hover:shadow-md hover:scale-125 hover:transition-all mx-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9]" viewBox="0 0 16 16"><path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                                <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                                </svg>
+                            </div>
+                            <div class="flex items-center justify-center w-[40px] h-[40px] bg-white shadow-sm rounded-full hover:shadow-md hover:scale-125 hover:transition-all mx-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list fill-[#c3cad9]" viewBox="0 0 16 16">  <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white shadow-2xl rounded-md p-6 fixed bottom-[50px] right-[47px] w-[400px] fixed_div_br hidden">
+         <div class="flex justify-between items-center">
+            <div class="flex items-center">
+                 <div class="w-[8px] h-[8px] bg-[#33bfff] rounded-full"></div>
+                 <h1 class="text-[#6b7a99] text-[14px] font-semibold my-3 mx-4">Development Tools</h1>
+                 <div class="h-[20px] w-[20px]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill fill-[#c3cad9]" viewBox="0 0 16 16"> <path d="M6.354 5.5H4a3 3 0 0 0 0 6h3a3 3 0 0 0 2.83-4H9c-.086 0-.17.01-.25.031A2 2 0 0 1 7 10.5H4a2 2 0 1 1 0-4h1.535c.218-.376.495-.714.82-1z"/><path d="M9 5.5a3 3 0 0 0-2.83 4h1.098A2 2 0 0 1 9 6.5h3a2 2 0 1 1 0 4h-1.535a4.02 4.02 0 0 1-.82 1H12a3 3 0 1 0 0-6H9z"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="h-[30px] w-[30px]">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-person-fill fill-[#c3cad9]" viewBox="0 0 16 16"><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </div>
+         </div>
+         <div>
+            <div class="flex items-center justify-between pl-4">
+                <div class="w-1/2 flex items-center">
+                    <div class="h-[30px] w-[30px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-fill fill-[#c3cad9]" viewBox="0 0 16 16"><path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </div>
+                    <h1 class="text-[#6b7a99] text-[12px] font-medium my-3 mx-2">4 Subtasks</h1>
+                </div>
+                <div class="w-1/2 flex items-center">
+                    <div class="w-[20px] h-[20px] mx-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list-task fill-[#c3cad9]" viewBox="0 0 16 16">
+                            <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001"/>
+                        </svg>
+                    </div>
+                    <h1 class="text-[#6b7a99] text-[12px] font-medium my-3 mx-2">Priority Enabled</h1>
+                </div>
+            </div>
+            <div class="flex items-center justify-between pl-5">
+                <div class="w-1/2 flex items-center">
+                    <div class="w-[24px] h-[24px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list-task fill-[#c3cad9]" viewBox="0 0 16 16"><path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+                        </svg>
+                    </div>
+                    <h1 class="text-[#6b7a99] text-[12px] font-medium my-3 mx-3">3 Files</h1>
+                </div>
+                <div class="w-1/2 flex items-center">
+                    <div class="h-[20px] w-[20px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill fill-[#c3cad9]" viewBox="0 0 16 16"><path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                            <path d="M3 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 6a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 6zm0 2.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </div>
+                    <h1 class="text-[#6b7a99] text-[12px] font-medium my-3 mx-4">7 Comments</h1>
+                </div>
+            </div>
+         </div>
+         <div class="flex items-center pl-4 mb-3">
+            <div class="w-[30px] h-[30px]">
+                <img src="images/p2.png" alt="">
+            </div>
+            <h1 class="text-[#6b7a99] text-[14px] font-semibold my-3 mx-4">Tyler Norman</h1>
+         </div>
+         <hr>
+         <div class="mt-4 flex items-center">
+            <div >
+                <h1 class="text-[#ced5e2] text-[14px] font-semibold ">START DATE</h1>
+                <h1 class="text-[#6b7a99] text-[12px] font-semibold ">Sep 3, 9:00 pm</h1>
+            </div>
+            <div class="mx-4 text-[25px] text-[#c3cad9]">></div>
+            <div>
+                <h1 class="text-[#ced5e2] text-[14px] font-semibold ">DUE DATE</h1>
+                <h1 class="text-[#6b7a99] text-[12px] font-semibold ">Sep 4, 9:00 pm</h1>
+            </div>
+            <div class="flex items-center ml-6">
+                <div class="w-[36px] h-[36px] rounded-full bg-[#29cc39] mr-4 flex items-center justify-center">
+                    <div class="h-[20px] w-[20px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill fill-white" viewBox="0 0 16 16"><path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                        </svg>
+                    </div>
+                </div>
+                <h1 class="text-[#6b7a99] text-[12px] font-semibold">0:00</h1>
+            </div>
+         </div>
+    </div>
+
+    <script>
+        var todo_div = document.getElementsByClassName("todo_div");
+        var todo_img = document.getElementsByClassName("todo_img");
+        var todo_lower_div = document.getElementsByClassName("todo_lower_div");
+
+        todo_div[0].addEventListener("mouseover",function(){
+             todo_lower_div[0].style.display = "flex";
+             todo_img[0].style.height = "100%";
+        });
+        todo_div[0].addEventListener("mouseout",function(){
+             todo_img[0].style.height = "0";
+             todo_lower_div[0].style.display = "none";
+        });
+
+        todo_div[1].addEventListener("mouseover",function(){
+             todo_lower_div[1].style.display = "flex";
+             todo_img[1].style.height = "100%";
+        });
+        todo_div[1].addEventListener("mouseout",function(){
+             todo_img[1].style.height = "0";
+             todo_lower_div[1].style.display = "none";
+        });
+
+        todo_div[2].addEventListener("mouseover",function(){
+             todo_lower_div[2].style.display = "flex";
+             todo_img[2].style.height = "100%";
+        });
+        todo_div[2].addEventListener("mouseout",function(){
+             todo_img[2].style.height = "0";
+             todo_lower_div[2].style.display = "none";
+        });
+
+        todo_div[3].addEventListener("mouseover",function(){
+             todo_lower_div[3].style.display = "flex";
+             todo_img[3].style.height = "100%";
+        });
+        todo_div[3].addEventListener("mouseout",function(){
+             todo_img[3].style.height = "0";
+             todo_lower_div[3].style.display = "none";
+        });
+
+        todo_div[4].addEventListener("mouseover",function(){
+             todo_lower_div[4].style.display = "flex";
+             todo_img[4].style.height = "100%";
+        });
+        todo_div[4].addEventListener("mouseout",function(){
+             todo_img[4].style.height = "0";
+             todo_lower_div[4].style.display = "none";
+        });
+
+        todo_div[5].addEventListener("mouseover",function(){
+             todo_lower_div[5].style.display = "flex";
+             todo_img[5].style.height = "100%";
+        });
+        todo_div[5].addEventListener("mouseout",function(){
+             todo_img[5].style.height = "0";
+             todo_lower_div[5].style.display = "none";
+        });
+
+        todo_div[6].addEventListener("mouseover",function(){
+             todo_lower_div[6].style.display = "flex";
+             todo_img[6].style.height = "100%";
+        });
+        todo_div[6].addEventListener("mouseout",function(){
+             todo_img[6].style.height = "0";
+             todo_lower_div[6].style.display = "none";
+        });
+
+    </script>
+    <script>
+        var inwork_div = document.getElementsByClassName("inwork_div");
+        var inwork_img = document.getElementsByClassName("inwork_img");
+        var inwork_lower_div = document.getElementsByClassName("inwork_lower_div");
+
+        inwork_div[0].addEventListener("mouseover",function(){
+             inwork_lower_div[0].style.display = "flex";
+             inwork_img[0].style.height = "100%";
+        });
+        inwork_div[0].addEventListener("mouseout",function(){
+             inwork_img[0].style.height = "0";
+             inwork_lower_div[0].style.display = "none";
+        });
+
+        inwork_div[1].addEventListener("mouseover",function(){
+             inwork_lower_div[1].style.display = "flex";
+             inwork_img[1].style.height = "100%";
+        });
+        inwork_div[1].addEventListener("mouseout",function(){
+             inwork_img[1].style.height = "0";
+             inwork_lower_div[1].style.display = "none";
+        });
+
+        inwork_div[2].addEventListener("mouseover",function(){
+             inwork_lower_div[2].style.display = "flex";
+             inwork_img[2].style.height = "100%";
+        });
+        inwork_div[2].addEventListener("mouseout",function(){
+             inwork_img[2].style.height = "0";
+             inwork_lower_div[2].style.display = "none";
+        });
+
+        inwork_div[3].addEventListener("mouseover",function(){
+             inwork_lower_div[3].style.display = "flex";
+             inwork_img[3].style.height = "100%";
+        });
+        inwork_div[3].addEventListener("mouseout",function(){
+             inwork_img[3].style.height = "0";
+             inwork_lower_div[3].style.display = "none";
+        });
+    </script>
+    <script>
+        var review_div = document.getElementsByClassName("review_div");
+        var review_img = document.getElementsByClassName("review_img");
+        var review_lower_div = document.getElementsByClassName("review_lower_div");
+
+        review_div[0].addEventListener("mouseover",function(){
+             review_lower_div[0].style.display = "flex";
+             review_img[0].style.height = "100%";
+        });
+        review_div[0].addEventListener("mouseout",function(){
+             review_img[0].style.height = "0";
+             review_lower_div[0].style.display = "none";
+        });
+
+        review_div[1].addEventListener("mouseover",function(){
+             review_lower_div[1].style.display = "flex";
+             review_img[1].style.height = "100%";
+        });
+        review_div[1].addEventListener("mouseout",function(){
+             review_img[1].style.height = "0";
+             review_lower_div[1].style.display = "none";
+        });
+    </script>
+    <script>
+        var done_div = document.getElementsByClassName("done_div");
+        var done_img = document.getElementsByClassName("done_img");
+        var done_lower_div = document.getElementsByClassName("done_lower_div");
+
+        done_div[0].addEventListener("mouseover",function(){
+             done_lower_div[0].style.display = "flex";
+             done_img[0].style.height = "100%";
+        });
+        done_div[0].addEventListener("mouseout",function(){
+             done_img[0].style.height = "0";
+             done_lower_div[0].style.display = "none";
+        });
+
+        
+    </script>
+    <script>
+        var sidebar_icon = document.getElementsByClassName("sidebar_icon");
+        var sidebar_svg = document.getElementsByClassName("sidebar_svg");
+  
+        sidebar_icon[0].addEventListener("mouseover",function(){
+            sidebar_svg[0].style.fill = "#3361ff";
+        });
+        sidebar_icon[0].addEventListener("mouseout",function(){
+            sidebar_svg[0].style.fill = "#c3cad9";
+        });
+
+        sidebar_icon[1].addEventListener("mouseover",function(){
+            sidebar_svg[1].style.fill = "#3361ff";
+        });
+        sidebar_icon[1].addEventListener("mouseout",function(){
+            sidebar_svg[1].style.fill = "#c3cad9";
+        });
+
+        sidebar_icon[2].addEventListener("mouseover",function(){
+            sidebar_svg[2].style.fill = "#3361ff";
+        });
+        sidebar_icon[2].addEventListener("mouseout",function(){
+            sidebar_svg[2].style.fill = "#c3cad9";
+        });
+
+        sidebar_icon[3].addEventListener("mouseover",function(){
+            sidebar_svg[3].style.fill = "#3361ff";
+        });
+        sidebar_icon[3].addEventListener("mouseout",function(){
+            sidebar_svg[3].style.fill = "#c3cad9";
+        });
+
+        sidebar_icon[4].addEventListener("mouseover",function(){
+            sidebar_svg[4].style.fill = "#3361ff";
+        });
+        sidebar_icon[4].addEventListener("mouseout",function(){
+            sidebar_svg[4].style.fill = "#c3cad9";
+        });
+
+        sidebar_icon[5].addEventListener("mouseover",function(){
+            sidebar_svg[5].style.fill = "#3361ff";
+        });
+        sidebar_icon[5].addEventListener("mouseout",function(){
+            sidebar_svg[5].style.fill = "#c3cad9";
+        })
+
+        sidebar_icon[6].addEventListener("mouseover",function(){
+            sidebar_svg[6].style.fill = "#3361ff";
+        });
+        sidebar_icon[6].addEventListener("mouseout",function(){
+            sidebar_svg[6].style.fill = "#c3cad9";
+        })
+
+        sidebar_icon[7].addEventListener("mouseover",function(){
+            sidebar_svg[7].style.fill = "#3361ff";
+        });
+        sidebar_icon[7].addEventListener("mouseout",function(){
+            sidebar_svg[7].style.fill = "#c3cad9";
+        })
+
+
+
+    </script>
+    <!-- <script>
+        var inner_upper_nav_li = document.getElementsByClassName("inner_upper_nav_li");
+        var inner_upper_nav_svg = document.getElementsByClassName("inner_upper_nav_svg");
+        var inner_upper_nav_p = document.getElementsByClassName("inner_upper_nav_p");
+
+  
+        inner_upper_nav_li[0].addEventListener("mouseover",function(){
+            inner_upper_nav_svg[0].style.fill = "#3361ff";
+            inner_upper_nav_p[0].style.color = "#3361ff";
+            inner_upper_nav_li[0].addEventListener("click",function(){
+            inner_upper_nav_svg[0].style.fill = "#3361ff";
+            inner_upper_nav_p[0].style.color = "#3361ff";
+            inner_upper_nav_svg[1].style.fill = "#c3cad9";
+            inner_upper_nav_p[1].style.color = "#7d8fb3";
+            inner_upper_nav_svg[2].style.fill = "#c3cad9";
+            inner_upper_nav_p[2].style.color = "#7d8fb3";
+            inner_upper_nav_svg[3].style.fill = "#c3cad9";
+            inner_upper_nav_p[3].style.color = "#7d8fb3";
+            inner_upper_nav_svg[4].style.fill = "#c3cad9";
+            inner_upper_nav_p[4].style.color = "#7d8fb3";
+            inner_upper_nav_svg[5].style.fill = "#c3cad9";
+            inner_upper_nav_p[5].style.color = "#7d8fb3";
+            inner_upper_nav_li[0].addEventListener("mouseout",function(){
+            inner_upper_nav_svg[0].style.fill = "#c3cad9";
+            inner_upper_nav_p[0].style.color = "#7d8fb3";
+        });
+        });
+
+        });
+        inner_upper_nav_li[0].addEventListener("mouseout",function(){
+            inner_upper_nav_svg[0].style.fill = "#c3cad9";
+            inner_upper_nav_p[0].style.color = "#7d8fb3";
+        });
+
+        inner_upper_nav_li[1].addEventListener("mouseover",function(){
+            inner_upper_nav_svg[1].style.fill = "#3361ff";
+            inner_upper_nav_p[1].style.color = "#3361ff";
+        });
+        inner_upper_nav_li[1].addEventListener("mouseout",function(){
+            inner_upper_nav_svg[1].style.fill = "#c3cad9";
+            inner_upper_nav_p[1].style.color = "#7d8fb3";
+        });
+
+        inner_upper_nav_li[2].addEventListener("mouseover",function(){
+            inner_upper_nav_svg[2].style.fill = "#3361ff";
+            inner_upper_nav_p[2].style.color = "#3361ff";
+        });
+        inner_upper_nav_li[2].addEventListener("mouseout",function(){
+            inner_upper_nav_svg[2].style.fill = "#c3cad9";
+            inner_upper_nav_p[2].style.color = "#7d8fb3";
+        });
+
+        inner_upper_nav_li[3].addEventListener("mouseover",function(){
+            inner_upper_nav_svg[3].style.fill = "#3361ff";
+            inner_upper_nav_p[3].style.color = "#3361ff";
+        });
+        inner_upper_nav_li[3].addEventListener("mouseout",function(){
+            inner_upper_nav_svg[3].style.fill = "#c3cad9";
+            inner_upper_nav_p[3].style.color = "#7d8fb3";
+        });
+
+        inner_upper_nav_li[4].addEventListener("mouseover",function(){
+            inner_upper_nav_svg[4].style.fill = "#3361ff";
+            inner_upper_nav_p[4].style.color = "#3361ff";
+        });
+        inner_upper_nav_li[4].addEventListener("mouseout",function(){
+            inner_upper_nav_svg[4].style.fill = "#c3cad9";
+            inner_upper_nav_p[4].style.color = "#7d8fb3";
+        });
+  
+        inner_upper_nav_li[5].addEventListener("mouseover",function(){
+            inner_upper_nav_svg[5].style.fill = "#3361ff";
+            inner_upper_nav_p[5].style.color = "#3361ff";
+        });
+        inner_upper_nav_li[5].addEventListener("mouseout",function(){
+            inner_upper_nav_svg[5].style.fill = "#c3cad9";
+            inner_upper_nav_p[5].style.color = "#7d8fb3";
+        });
+    </script> -->
+    <script>
+        var inner_upper_nav_li = document.getElementsByClassName("inner_upper_nav_li");
+        var inner_upper_nav_svg = document.getElementsByClassName("inner_upper_nav_svg");
+        var inner_upper_nav_p = document.getElementsByClassName("inner_upper_nav_p");
+
+        inner_upper_nav_svg[0].style.fill = "#3361ff";
+            inner_upper_nav_p[0].style.color = "#3361ff";
+  
+        inner_upper_nav_li[0].addEventListener("click",function(){
+            inner_upper_nav_svg[0].style.fill = "#3361ff";
+            inner_upper_nav_p[0].style.color = "#3361ff";
+            inner_upper_nav_svg[1].style.fill = "#c3cad9";
+            inner_upper_nav_p[1].style.color = "#7d8fb3";
+            inner_upper_nav_svg[2].style.fill = "#c3cad9";
+            inner_upper_nav_p[2].style.color = "#7d8fb3";
+            inner_upper_nav_svg[3].style.fill = "#c3cad9";
+            inner_upper_nav_p[3].style.color = "#7d8fb3";
+            inner_upper_nav_svg[4].style.fill = "#c3cad9";
+            inner_upper_nav_p[4].style.color = "#7d8fb3";
+            inner_upper_nav_svg[5].style.fill = "#c3cad9";
+            inner_upper_nav_p[5].style.color = "#7d8fb3";
+        });
+
+        inner_upper_nav_li[1].addEventListener("click",function(){
+            inner_upper_nav_svg[1].style.fill = "#3361ff";
+            inner_upper_nav_p[1].style.color = "#3361ff";
+            inner_upper_nav_svg[0].style.fill = "#c3cad9";
+            inner_upper_nav_p[0].style.color = "#7d8fb3";
+            inner_upper_nav_svg[2].style.fill = "#c3cad9";
+            inner_upper_nav_p[2].style.color = "#7d8fb3";
+            inner_upper_nav_svg[3].style.fill = "#c3cad9";
+            inner_upper_nav_p[3].style.color = "#7d8fb3";
+            inner_upper_nav_svg[4].style.fill = "#c3cad9";
+            inner_upper_nav_p[4].style.color = "#7d8fb3";
+            inner_upper_nav_svg[5].style.fill = "#c3cad9";
+            inner_upper_nav_p[5].style.color = "#7d8fb3";
+        });
+
+        inner_upper_nav_li[2].addEventListener("click",function(){
+            inner_upper_nav_svg[2].style.fill = "#3361ff";
+            inner_upper_nav_p[2].style.color = "#3361ff";
+            inner_upper_nav_svg[0].style.fill = "#c3cad9";
+            inner_upper_nav_p[0].style.color = "#7d8fb3";
+            inner_upper_nav_svg[1].style.fill = "#c3cad9";
+            inner_upper_nav_p[1].style.color = "#7d8fb3";
+            inner_upper_nav_svg[3].style.fill = "#c3cad9";
+            inner_upper_nav_p[3].style.color = "#7d8fb3";
+            inner_upper_nav_svg[4].style.fill = "#c3cad9";
+            inner_upper_nav_p[4].style.color = "#7d8fb3";
+            inner_upper_nav_svg[5].style.fill = "#c3cad9";
+            inner_upper_nav_p[5].style.color = "#7d8fb3";
+        });
+
+        inner_upper_nav_li[3].addEventListener("click",function(){
+            inner_upper_nav_svg[3].style.fill = "#3361ff";
+            inner_upper_nav_p[3].style.color = "#3361ff";
+            inner_upper_nav_svg[0].style.fill = "#c3cad9";
+            inner_upper_nav_p[0].style.color = "#7d8fb3";
+            inner_upper_nav_svg[1].style.fill = "#c3cad9";
+            inner_upper_nav_p[1].style.color = "#7d8fb3";
+            inner_upper_nav_svg[2].style.fill = "#c3cad9";
+            inner_upper_nav_p[2].style.color = "#7d8fb3"; 
+            inner_upper_nav_svg[4].style.fill = "#c3cad9";
+            inner_upper_nav_p[4].style.color = "#7d8fb3";
+            inner_upper_nav_svg[5].style.fill = "#c3cad9";
+            inner_upper_nav_p[5].style.color = "#7d8fb3";
+        });
+
+        inner_upper_nav_li[4].addEventListener("click",function(){
+            inner_upper_nav_svg[4].style.fill = "#3361ff";
+            inner_upper_nav_p[4].style.color = "#3361ff";
+            inner_upper_nav_svg[0].style.fill = "#c3cad9";
+            inner_upper_nav_p[0].style.color = "#7d8fb3";
+            inner_upper_nav_svg[1].style.fill = "#c3cad9";
+            inner_upper_nav_p[1].style.color = "#7d8fb3";
+            inner_upper_nav_svg[2].style.fill = "#c3cad9";
+            inner_upper_nav_p[2].style.color = "#7d8fb3"; 
+            inner_upper_nav_svg[3].style.fill = "#c3cad9";
+            inner_upper_nav_p[3].style.color = "#7d8fb3";
+            inner_upper_nav_svg[5].style.fill = "#c3cad9";
+            inner_upper_nav_p[5].style.color = "#7d8fb3";
+        });
+        
+        inner_upper_nav_li[5].addEventListener("click",function(){
+            inner_upper_nav_svg[5].style.fill = "#3361ff";
+            inner_upper_nav_p[5].style.color = "#3361ff";
+            inner_upper_nav_svg[0].style.fill = "#c3cad9";
+            inner_upper_nav_p[0].style.color = "#7d8fb3";
+            inner_upper_nav_svg[1].style.fill = "#c3cad9";
+            inner_upper_nav_p[1].style.color = "#7d8fb3";
+            inner_upper_nav_svg[2].style.fill = "#c3cad9";
+            inner_upper_nav_p[2].style.color = "#7d8fb3";
+            inner_upper_nav_svg[3].style.fill = "#c3cad9";
+            inner_upper_nav_p[3].style.color = "#7d8fb3";
+            inner_upper_nav_svg[4].style.fill = "#c3cad9";
+            inner_upper_nav_p[4].style.color = "#7d8fb3";  
+        });
+    </script>
+    <script>
+        var boards = document.getElementsByClassName("boards")[0];
+        var list_tasks = document.getElementsByClassName("list_tasks")[0];
+        var fixed_div_br = document.getElementsByClassName("fixed_div_br")[0];
+        var add_task_li = document.getElementsByClassName("add_task_li");
+        var add_task = document.getElementsByClassName("add_task");
+        var timeline = document.getElementsByClassName("timeline");
+        var calendar = document.getElementsByClassName("calendar");
+        var gantt = document.getElementsByClassName("gantt");
+
+        add_task_li[0].onclick = function(){
+            list_tasks.style.display = "none";
+            boards.style.display = "none";
+            fixed_div_br.style.display = "none";
+            add_task[0].style.display = "block";
+            timeline[0].style.display = "none";
+            calendar[0].style.display = "none";
+            gantt[0].style.display = "none";
+        }
+
+        inner_upper_nav_li[0].onclick = function(){
+            list_tasks.style.display = "block";
+            boards.style.display = "none";
+            fixed_div_br.style.display = "none";
+            add_task[0].style.display = "none";
+            timeline[0].style.display = "none";
+            calendar[0].style.display = "none";
+            gantt[0].style.display = "none";
+        }
+        inner_upper_nav_li[1].onclick = function(){
+            list_tasks.style.display = "none";
+            boards.style.display = "flex";
+            fixed_div_br.style.display = "block";
+            add_task[0].style.display = "none";
+            timeline[0].style.display = "none";
+            calendar[0].style.display = "none";
+            gantt[0].style.display = "none";
+        }
+        inner_upper_nav_li[2].onclick = function(){
+            list_tasks.style.display = "none";
+            boards.style.display = "none";
+            fixed_div_br.style.display = "block";
+            add_task[0].style.display = "none";
+            timeline[0].style.display = "none";
+            calendar[0].style.display = "block";
+            gantt[0].style.display = "none";
+        }
+        inner_upper_nav_li[3].onclick = function(){
+            list_tasks.style.display = "none";
+            boards.style.display = "none";
+            fixed_div_br.style.display = "block";
+            add_task[0].style.display = "none";
+            timeline[0].style.display = "none";
+            calendar[0].style.display = "none";
+            gantt[0].style.display = "block";
+        }
+        inner_upper_nav_li[4].onclick = function(){
+            list_tasks.style.display = "none";
+            boards.style.display = "none";
+            fixed_div_br.style.display = "block";
+            add_task[0].style.display = "none";
+            timeline[0].style.display = "block";
+            calendar[0].style.display = "none";
+            gantt[0].style.display = "none";
+        }
+    </script>
+    <script>
+        var list_tasks_link = document.getElementsByClassName("list_tasks_link");
+        var list_tasks_div = document.getElementsByClassName("list_tasks_div");
+
+        list_tasks_link[0].addEventListener("mouseover",function(){
+            list_tasks_div[0].style.display = "block";
+        });
+        list_tasks_link[0].addEventListener("mouseout",function(){
+            list_tasks_div[0].style.display = "none";
+        });
+
+        list_tasks_link[1].addEventListener("mouseover",function(){
+            list_tasks_div[1].style.display = "block";
+        });
+        list_tasks_link[1].addEventListener("mouseout",function(){
+            list_tasks_div[1].style.display = "none";
+        });
+
+        list_tasks_link[2].addEventListener("mouseover",function(){
+            list_tasks_div[2].style.display = "block";
+        });
+        list_tasks_link[2].addEventListener("mouseout",function(){
+            list_tasks_div[2].style.display = "none";
+        });
+
+        list_tasks_link[3].addEventListener("mouseover",function(){
+            list_tasks_div[3].style.display = "block";
+        });
+        list_tasks_link[3].addEventListener("mouseout",function(){
+            list_tasks_div[3].style.display = "none";
+        });
+
+        list_tasks_link[4].addEventListener("mouseover",function(){
+            list_tasks_div[4].style.display = "block";
+        });
+        list_tasks_link[4].addEventListener("mouseout",function(){
+            list_tasks_div[4].style.display = "none";
+        });
+    </script>
+    <script>
+        var tile = document.getElementsByClassName("tile");
+        var tile_svg = document.getElementsByClassName("tile_svg");
+        var tile_text = document.getElementsByClassName("tile_text");
+
+        tile[0].addEventListener("mouseover",function(){
+            tile_svg[0].style.fill = "#3361ff";
+            tile_text[0].style.color = "#3361ff";
+        });
+        tile[0].addEventListener("mouseout",function(){
+            tile_svg[0].style.fill = "#c3cad9";
+            tile_text[0].style.color = "#dbe0e9";
+        });
+
+        tile[1].addEventListener("mouseover",function(){
+            tile_svg[1].style.fill = "#3361ff";
+            tile_text[1].style.color = "#3361ff";
+        });
+        tile[1].addEventListener("mouseout",function(){
+            tile_svg[1].style.fill = "#c3cad9";
+            tile_text[1].style.color = "#dbe0e9";
+        });
+
+        tile[2].addEventListener("mouseover",function(){
+            tile_svg[2].style.fill = "#3361ff";
+            tile_text[2].style.color = "#3361ff";
+        });
+        tile[2].addEventListener("mouseout",function(){
+            tile_svg[2].style.fill = "#c3cad9";
+            tile_text[2].style.color = "#dbe0e9";
+        });
+
+        tile[3].addEventListener("mouseover",function(){
+            tile_svg[3].style.fill = "#3361ff";
+            tile_text[3].style.color = "#3361ff";
+        });
+        tile[3].addEventListener("mouseout",function(){
+            tile_svg[3].style.fill = "#c3cad9";
+            tile_text[3].style.color = "#dbe0e9";
+        });
+
+        tile[4].addEventListener("mouseover",function(){
+            tile_svg[4].style.fill = "#3361ff";
+            tile_text[4].style.color = "#3361ff";
+        });
+        tile[4].addEventListener("mouseout",function(){
+            tile_svg[4].style.fill = "#c3cad9";
+            tile_text[4].style.color = "#dbe0e9";
+        });
+
+        tile[5].addEventListener("mouseover",function(){
+            tile_svg[5].style.fill = "#3361ff";
+            tile_text[5].style.color = "#3361ff";
+        });
+        tile[5].addEventListener("mouseout",function(){
+            tile_svg[5].style.fill = "#c3cad9";
+            tile_text[5].style.color = "#dbe0e9";
+        });
+
+        tile[6].addEventListener("mouseover",function(){
+            tile_svg[6].style.fill = "#3361ff";
+            tile_text[6].style.color = "#3361ff";
+        });
+        tile[6].addEventListener("mouseout",function(){
+            tile_svg[6].style.fill = "#c3cad9";
+            tile_text[6].style.color = "#dbe0e9";
+        });
+
+        tile[7].addEventListener("mouseover",function(){
+            tile_svg[7].style.fill = "#3361ff";
+            tile_text[7].style.color = "#3361ff";
+        });
+        tile[7].addEventListener("mouseout",function(){
+            tile_svg[7].style.fill = "#c3cad9";
+            tile_text[7].style.color = "#dbe0e9";
+        });
+    </script>
+    <script>
+        var components_li = document.getElementsByClassName("components_li")[0];
+        var components_div = document.getElementsByClassName("components_div")[0];
+
+        components_li.onclick =  function(){
+            if(components_li.style.height == "40px")
+            {
+                components_li.style.height = "auto";
+            }
+            else
+            {
+                components_li.style.height = "40px";
+            }   
+        }
+    </script>
+    <script>
+        var wrapping_div = document.getElementsByClassName("wrapping_div");
+        var wrapping_image = document.getElementsByClassName("wrapping_image");
+
+        wrapping_div[0].addEventListener("mouseover",function(){
+             wrapping_image[0].style.height = "100%";
+            //  wrapping_image[0].style.transition = "0.5s";
+        });
+        wrapping_div[0].addEventListener("mouseout",function(){
+             wrapping_image[0].style.height = "0px";
+        });
+
+        wrapping_div[1].addEventListener("mouseover",function(){
+             wrapping_image[1].style.height = "100%";
+            //  wrapping_image[1].style.transition = "0.5s";
+        });
+        wrapping_div[1].addEventListener("mouseout",function(){
+             wrapping_image[1].style.height = "0px";
+        });
+
+        wrapping_div[2].addEventListener("mouseover",function(){
+             wrapping_image[2].style.height = "100%";
+            //  wrapping_image[2].style.transition = "0.5s";
+        });
+        wrapping_div[2].addEventListener("mouseout",function(){
+             wrapping_image[2].style.height = "0px";
+        });
+
+        wrapping_div[3].addEventListener("mouseover",function(){
+             wrapping_image[3].style.height = "100%";
+            //  wrapping_image[3].style.transition = "0.5s";
+        });
+        wrapping_div[3].addEventListener("mouseout",function(){
+             wrapping_image[3].style.height = "0px";
+        });
+
+        wrapping_div[4].addEventListener("mouseover",function(){
+             wrapping_image[4].style.height = "100%";
+            //  wrapping_image[4].style.transition = "0.5s";
+        });
+        wrapping_div[4].addEventListener("mouseout",function(){
+             wrapping_image[4].style.height = "0px";
+        });
+
+        wrapping_div[5].addEventListener("mouseover",function(){
+             wrapping_image[5].style.height = "100%";
+            //  wrapping_image[5].style.transition = "0.5s";
+        });
+        wrapping_div[5].addEventListener("mouseout",function(){
+             wrapping_image[5].style.height = "0px";
+        });
+
+        wrapping_div[6].addEventListener("mouseover",function(){
+             wrapping_image[6].style.height = "100%";
+            //  wrapping_image[6].style.transition = "0.5s";
+        });
+        wrapping_div[6].addEventListener("mouseout",function(){
+             wrapping_image[6].style.height = "0px";
+        });
+
+        wrapping_div[7].addEventListener("mouseover",function(){
+             wrapping_image[7].style.height = "100%";
+            //  wrapping_image[7].style.transition = "0.5s";
+        });
+        wrapping_div[7].addEventListener("mouseout",function(){
+             wrapping_image[7].style.height = "0px";
+        });
+
+        wrapping_div[8].addEventListener("mouseover",function(){
+             wrapping_image[8].style.height = "100%";
+            //  wrapping_image[8].style.transition = "0.5s";
+        });
+        wrapping_div[8].addEventListener("mouseout",function(){
+             wrapping_image[8].style.height = "0px";
+        });
+
+    </script>
+</body>
+</html>
